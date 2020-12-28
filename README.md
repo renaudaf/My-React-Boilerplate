@@ -31,22 +31,28 @@ yarn deploy
 
 cd ~/code/<github_username>
 
-# Download boilerplate to new project
+### Download boilerplate to new project
+
 git git@github.com:renaudaf/My-React-Boilerplate.git project-name
+
 cd project-name
 
-# Destroy existing boilerplate git history, and start a new one
+### Destroy existing boilerplate git history, and start a new one
 rm -rf .git
+
 git init
+
 git add .
+
 git commit -m "initial commit with boilerplate"
 
-# Create a GitHub repo, and push!
+### Create a GitHub repo, and push!
 hub create
+
 git push origin master
 
-# Install the dependencies listed in the `package.json` file with:
+### Install the dependencies listed in the `package.json` file with:
 yarn install
 
-# Time to open Sublime Text and code.
+### Time to open Sublime Text and code.
 code .
