@@ -28,3 +28,38 @@ To build and deploy your app to `gh-pages` branch on the GitHub repo:
 ```bash
 yarn deploy
 ```
+
+
+### Download boilerplate to new project
+```bash
+cd ~/code/<github_username>
+
+git git@github.com:renaudaf/My-React-Boilerplate.git project-name
+
+cd project-name
+```
+
+### Destroy existing boilerplate git history, and start a new one
+```bash
+rm -rf .git
+
+git init
+
+git add .
+
+git commit -m "initial commit with boilerplate"
+```
+### Create a GitHub repo, and push!
+```bash
+hub create
+
+git push origin master
+```
+### Install the dependencies listed in the `package.json` file with:
+```bash
+yarn install
+```
+### Time to open Sublime Text and code.
+```bash
+code .
+```
