@@ -29,10 +29,11 @@ To build and deploy your app to `gh-pages` branch on the GitHub repo:
 yarn deploy
 ```
 
-cd ~/code/<github_username>
 
 ### Download boilerplate to new project
 ```bash
+cd ~/code/<github_username>
+
 git git@github.com:renaudaf/My-React-Boilerplate.git project-name
 
 cd project-name
