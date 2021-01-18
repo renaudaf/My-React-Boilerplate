@@ -34,7 +34,7 @@ yarn deploy
 ```bash
 cd ~/code/<github_username>
 
-git git@github.com:renaudaf/My-React-Boilerplate.git project-name
+git clone git@github.com:renaudaf/My-React-Boilerplate.git project-name
 
 cd project-name
 ```
